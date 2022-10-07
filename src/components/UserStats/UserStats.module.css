@@ -1,0 +1,38 @@
+.stats {
+  display: flex;
+  list-style: none;
+
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+  padding: 30px 5px;
+
+  text-align: center;
+
+  background-color: #ccc;
+  border: 1px solid gray;
+}
+
+.stats li:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+.stats li:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+.label {
+  font-weight: 500;
+  padding: 10px;
+}
+
+.quantity {
+  padding: 10px;
+}

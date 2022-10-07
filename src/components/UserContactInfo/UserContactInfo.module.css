@@ -1,0 +1,21 @@
+.description {
+  height: 600px;
+  border: 1px solid grey;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 40px;
+
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.tag,
+.location {
+  font-weight: 500;
+  color: rgb(130, 127, 127);
+}
