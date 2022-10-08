@@ -10,12 +10,18 @@
   background-color: whitesmoke;
 }
 
+.avatar {
+  padding-bottom: 30px;
+}
+
 .name {
   font-weight: 700;
+  padding-bottom: 30px;
 }
 
 .tag,
 .location {
   font-weight: 500;
   color: rgb(130, 127, 127);
+  padding-bottom: 30px;
 }

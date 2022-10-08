@@ -1,5 +1,5 @@
-import { UserStats } from '../UserStats/UserStats';
-import { UserContactInfo } from '../UserContactInfo/UserContactInfo';
+import { UserStats } from './UserStats/UserStats';
+import { UserContactInfo } from './UserContactInfo/UserContactInfo';
 import css from '../Profile/Profile.module.css';
 // import { ContactInfo } from './ContactInfo';
 
