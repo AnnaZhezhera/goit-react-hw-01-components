@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const FriendItemBlock = styled.li`
   display: flex;
   align-items: center;
+  gap: 20px;
   width: 600px;
 
   padding: 30px;
@@ -19,15 +20,13 @@ export const FriendStatus = styled.span`
   width: 30px;
   height: 30px;
 
-  margin-right: 20px;
-
   border-radius: 50%;
   background-color: ${props => (props.isOnline ? 'green' : 'red')};
 `;
 
-export const FriendAvatar = styled.img`
-  margin-right: 20px;
-`;
+// export const FriendAvatar = styled.img`
+//   margin-right: 20px;
+// `;
 
 export const FriendName = styled.p`
   font-weight: 700;

@@ -4,10 +4,10 @@ export const TransactionRow = styled.tr`
   padding: 10px;
   width: 100px;
   /* background-color: whitesmoke; */
-  &:nth-child(even) {
+  :nth-child(even) {
     background-color: lavender;
   }
-  &:nth-child(odd) {
+  :nth-child(odd) {
     background-color: beige;
   }
 `;
