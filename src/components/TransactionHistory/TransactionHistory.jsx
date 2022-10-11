@@ -7,7 +7,7 @@ import {
 
 export const TransactionHistory = ({ items }) => {
   return (
-    <TransactionTable class="transaction-history">
+    <TransactionTable>
       <thead>
         <tr>
           <TransactionTableHeading>Type</TransactionTableHeading>
@@ -19,6 +19,7 @@ export const TransactionHistory = ({ items }) => {
       <tbody>
         {items.map(item => (
           <OneTransactionInfo
+            key={item.id}
             id={item.id}
             type={item.type}
             amount={item.amount}

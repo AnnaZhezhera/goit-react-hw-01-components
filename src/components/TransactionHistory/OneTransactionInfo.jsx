@@ -3,7 +3,7 @@ import { TransactionRow, TransactionCell } from './OneTransactionInfo.styled';
 
 export const OneTransactionInfo = ({ id, type, amount, currency }) => {
   return (
-    <TransactionRow key={id}>
+    <TransactionRow>
       <TransactionCell>{type}</TransactionCell>
       <TransactionCell>{amount}</TransactionCell>
       <TransactionCell>{currency}</TransactionCell>
@@ -14,16 +14,6 @@ export const OneTransactionInfo = ({ id, type, amount, currency }) => {
 OneTransactionInfo.propTypes = {
   id: PropTypes.string,
   type: PropTypes.string,
-  amount: PropTypes.number,
+  amount: PropTypes.string,
   currency: PropTypes.string,
 };
-
-// export const OneTransactionInfo = ({ id, type, amount, currency }) => {
-//   return (
-//     <tr key={id}>
-//       <td>{type}</td>
-//       <td>{amount}</td>
-//       <td>{currency}</td>
-//     </tr>
-//   );
-// };

@@ -4,9 +4,9 @@
 
 .stats li {
   display: flex;
+  width: 200px;
   flex-direction: column;
 
-  width: 200px;
   padding: 30px 5px;
 
   text-align: center;

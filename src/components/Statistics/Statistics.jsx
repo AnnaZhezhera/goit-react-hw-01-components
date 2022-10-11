@@ -13,11 +13,11 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.propTypes = {
-  stats: PropTypes.shape({
-    stats: {
-      id: PropTypes.number,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
       label: PropTypes.string,
       percentage: PropTypes.number,
-    },
-  }),
+    })
+  ),
 };
